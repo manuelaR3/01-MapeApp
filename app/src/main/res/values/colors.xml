@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="mt_helado">#A0D2E8</color>
     <color name="mt_frost">#E5EAF5</color>
-    <color name="mt_softpurple">#D0BDF4</color>
-    <color name="mt_purple">#8458B3</color>
+    <color name="mt_ladrillo">#B87F64</color>
+    <color name="mt_petroleo">#36484D</color>
     <color name="mt_heavy">#494D5F</color>
 </resources>

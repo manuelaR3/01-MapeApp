@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@drawable/signup_background"
+    android:background="@drawable/main_background"
     tools:context=".MainActivity">
 
 
@@ -19,8 +19,9 @@
             android:layout_width="222dp"
             android:layout_height="244dp"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
-            android:src="@drawable/icon_honey"/>
+            android:layout_marginTop="25dp"
+            android:src="@drawable/icon_honey"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -29,65 +30,73 @@
             android:text="MapeaTec"
             android:textColor="@color/black"
             android:textSize="40dp"
-            android:textStyle="bold"/>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:hint="Email"
-                android:background="@color/white"
-                android:inputType="textEmailAddress"/>
-            
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="Contraseña"
-                android:background="@color/white"
-                android:inputType="textPassword"/>
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Iniciar sesión"
-            android:background="@color/mt_heavy"
-            android:layout_margin="25dp"
+            android:textStyle="bold"
             />
 
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="46dp"
-            android:layout_marginTop="60dp"
-            android:background="@color/black"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Te garantizamos:"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginTop="30dp"
+            />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="¿no tienes cuenta? "
-                android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="- Decisiones de compra más inteligentes"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" REGISTRATE!"
-                android:textColor="@color/white" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="- Y una vitrina para sus servicios..."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            />
 
-        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TODO en un solo lugar!"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/TextViewLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inicia sesión"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        <Button
+            android:id="@+id/TextViewRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regístrate"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            />
 
 
     </LinearLayout>

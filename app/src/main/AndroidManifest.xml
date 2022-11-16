@@ -9,11 +9,25 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/honey_icon_foreground"
-        android:label="@string/app_name"
+        android:label="MapeaTec"
         android:roundIcon="@mipmap/honey_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.01Honey_Comb"
         tools:targetApi="31">
+        <activity
+            android:name=".LogInActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
